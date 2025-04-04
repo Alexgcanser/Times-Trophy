@@ -313,6 +313,22 @@ function Home() {
         )}
 
         <button
+          onClick={() => navigate("/chat")}
+          style={{
+            padding: "10px 20px",
+            backgroundColor: "#6c63ff",
+            color: "white",
+            fontSize: "16px",
+            fontWeight: "bold",
+            borderRadius: "5px",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          Hablar con Admin
+        </button>
+
+        <button
           onClick={cerrarSesion}
           style={{
             padding: "10px 20px",
